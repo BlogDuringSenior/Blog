@@ -4,16 +4,16 @@
 
 # Site
 title: 蒟蒻のBlog
-subtitle: ''
+subtitle: '退役OIer在线发文'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 陈培琛
+language: zh-cn
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://cpc07.eu.org
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
