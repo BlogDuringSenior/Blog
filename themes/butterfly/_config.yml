@@ -36,6 +36,9 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/ImOxygen233 || Github
+  fas fa-qq: 2843445306 || QQ
+  fas fa-bilibili: https://space.bilibili.com/1881307740 || Bilibili
+  fas fa-hand-heart: https://afdian.net/a/cpc07 || 爱发电
   fas fa-envelope: mailto:chenpeichen2007@outlook.com || Email
 
 # search (搜索)
@@ -68,7 +71,7 @@ mathjax:
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 
@@ -80,24 +83,24 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/蒟蒻.jpg
+  img: https://files.cpc07.eu.org/api/raw/?path=/images/%E8%92%9F%E8%92%BB.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: https://files.cpc07.eu.org/api/raw/?path=/images/Field_1.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
 
 # The banner image of archive page
-archive_img:
+archive_img: https://files.cpc07.eu.org/api/raw/?path=/images/Field_1.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://files.cpc07.eu.org/api/raw/?path=/images/Field_1.jpg
 
 # The banner image of tag page
 # format:
@@ -106,7 +109,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: https://files.cpc07.eu.org/api/raw/?path=/images/Field_1.jpg
 
 # The banner image of category page
 # format:
@@ -191,11 +194,11 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
+    - img: https://files.cpc07.eu.org/api/raw/?path=/images/afd%20logo%20big-%E5%8F%91%E7%94%B5%E7%B4%AB.png
+      link: https://afdian.net/a/cpc07
+      text: 来爱发电支持蒟蒻OIer
     # - img: /img/alipay.jpg
     #   link:
     #   text: alipay
@@ -215,7 +218,7 @@ related_post:
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # post_pagination (分頁)
 # value: 1 || 2 || false
@@ -421,8 +424,8 @@ messenger:
 footer:
   owner:
     enable: true
-    since: 2020
-  custom_text:
+    since: 2022
+  custom_text: <a href="https://icp.gov.moe/?keyword=20226290" target="_blank">萌ICP备20226290号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -446,7 +449,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: diq82bw9ny
 
 # Advertisement
 # --------------------------------------

@@ -103,3 +103,22 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Search
+# 配置的本地搜索
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
+
+
+# 数学公式支持
+
+markdown:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      options:
+        strict: false
