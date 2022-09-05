@@ -196,7 +196,7 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://files.cpc07.eu.org/api/raw/?path=/images/afd%20logo%20big-%E5%8F%91%E7%94%B5%E7%B4%AB.png
+    - img: https://files.cpc07.eu.org/api/raw/?path=/images/afd%20logo-%E5%8F%91%E7%94%B5%E7%B4%AB.png
       link: https://afdian.net/a/cpc07
       text: 来爱发电支持蒟蒻OIer
     # - img: /img/alipay.jpg
